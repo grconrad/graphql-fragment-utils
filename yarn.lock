@@ -59,14 +59,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node16@npm:^1.0.2, @tsconfig/node16@npm:^1.0.3":
+"@tsconfig/node16@npm:^1.0.2":
   version: 1.0.3
   resolution: "@tsconfig/node16@npm:1.0.3"
   checksum: 3a8b657dd047495b7ad23437d6afd20297ce90380ff0bdee93fc7d39a900dbd8d9e26e53ff6b465e7967ce2adf0b218782590ce9013285121e6a5928fbd6819f
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.0.0":
+"@types/node@npm:16":
   version: 16.11.68
   resolution: "@types/node@npm:16.11.68"
   checksum: a35293b6b8867e10ab9e10b6cd5f0e4224a86256d5ef102581dcb9f79f35f255ad87443e8584ddf8dce1229ee28885c58187e41822cf8d1e82495e7897c47c3f
@@ -114,8 +114,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "graphql-fragment-utils@workspace:."
   dependencies:
-    "@tsconfig/node16": ^1.0.3
-    "@types/node": ^16.0.0
+    "@types/node": 16
     graphql: ^16.6.0
     ts-node: ^10.9.1
     typescript: ^4.8.4
